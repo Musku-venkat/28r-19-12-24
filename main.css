@@ -1,0 +1,111 @@
+.main{
+    background: url(https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 925px;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    padding: 300px 120px 160px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-2{
+    color: white;
+    font-size: 18px;
+    font-weight: larger;
+}
+
+.item-3{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.main-container-2{
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.item-4, .item-5, .item-6{
+    width: 100%;
+    padding: 9px;
+    padding-left: 20px;
+}
+
+.item-4>select, .item-5>input, .item-6>select{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    padding-left: 5px;
+    font-size: large;
+}
+
+.item-5{
+    border-left: 1px solid #8d99af;
+    border-right: 1px solid #8d99af;
+    width: 100%;
+}
+
+.item-7{
+    color: white;
+    background-color: #8d99af;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.item-7>i{
+    color: #8d99af;
+    background-color: white;
+    font-size: large;
+    padding: 3px 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-1>i:hover, .footer-2>i:hover, .footer-3>i:hover, .footer-4>i:hover, .footer-5>i:hover{
+    background-color: #343a40;;
+}
+
+.footer-1 p, .footer-2 p, .footer-3 p, .footer-4 p, .footer-5 p{
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.footer-1>i, .footer-2>i, .footer-3>i, .footer-4>i, .footer-5>i{
+    padding: 20px;
+    font-size: 30px;
+    /* border: 2px solid black; */
+    border-radius: 60%;
+    color: #8d99af;
+    background-color: white;
+    cursor: pointer;
+}
