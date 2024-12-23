@@ -1,4 +1,4 @@
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 770px) {
     .header{
         background-color: white;
         width: 100%;
@@ -20,12 +20,13 @@
     .header-3 i{
         color: black;
         display: block;
+        cursor: pointer;
     }
 
-    .header-3:checked+.header-4{
+    #checkbox:checked+.header-4{
         display: block;
         position: absolute;
-        top: 20px;
+        top: 100px;
     }
 
     .main {
@@ -103,12 +104,8 @@
     }
 }
 
-@media screen and (min-width : 601px) and (max-width : 1008px) {
+@media screen and (min-width : 771px) and (max-width : 1008px) {
     .header{
-        /* width: 100%;
-        position: absolute;
-        top: 0px; */
-
         background-color: transparent;
         padding: 20px;
     }
